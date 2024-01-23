@@ -1,0 +1,83 @@
+// Place all the styles related to the posts controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: https://sass-lang.com/
+h4{
+  text-align: right;
+  margin-right: 10px;
+  margin-top: 10px;
+}
+h3 {
+  width: 100px;
+  margin: 30px auto;
+  text-align: center;
+}
+p{
+  text-align: center;
+}
+li{
+  text-align: center;
+}
+h2 {
+  width: 300px;
+  margin: 30px auto;
+  text-align: center;
+}
+
+.first {
+  text-align: center;
+}
+
+#display{
+  text-align: center;
+}
+
+.sedond{
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.posts-container {
+  text-align: center;
+  width: 100%;
+  margin: 10px auto;
+  
+}
+
+.post {
+  display: inline-block;
+  border-top: thick double #32a1ce;
+  margin-top: 50px;
+  padding-top: 20px;
+  background-color:burlywood;
+
+}
+.main-box {
+  margin: 5px 0;
+  display: flex;
+  justify-content: center;
+}
+.left-container{
+  color:darkcyan;
+}
+
+.right-container{
+  color: green;
+  display: flex;
+  
+}
+.time {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.field{
+  text-align: center;
+}
+
+.form-group{
+  text-align: center;
+}
+
+.actions{
+  text-align: center;
+}

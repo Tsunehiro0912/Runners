@@ -1,0 +1,44 @@
+// Place all the styles related to the users controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: https://sass-lang.com/
+
+h6{
+    background-color: aquamarine;
+    width: 50%;
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+    font-size: 20px;
+}
+
+.myposts{
+    text-align: center;
+    display: flex;
+    flex-direction: column-reverse;
+}
+.mypost{
+    text-align: center;
+ 
+}
+
+.likedpost{
+    text-align: center;
+
+}
+
+
+
+
+h5{
+    text-align: right;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+
+h7{
+    width: 300px;
+    margin: 30px auto;
+    text-align: center;
+    font-size: 18px;
+    margin-top: 20px;
+}

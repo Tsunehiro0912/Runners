@@ -1,0 +1,37 @@
+<h2>マイページ</h2>
+<h5>
+<%= link_to "Post一覧に戻る", posts_path %>
+</h5>
+<h5>
+<% if current_user.id == @user.id %>
+  <%= link_to "編集する", edit_user_registration_path %>
+<% end %>
+</h5>
+<p>名前 : <%= @user.name %></p>
+<p>メールアドレス : <%= @user.email %></p>
+<p>プロフィール : <%= @user.profile %></p>
+
+
+
+<h6>ユーザーの投稿一覧</h6>
+<div class="myposts">
+<% @user.posts.each do |t| %>
+  <div class="mypost">
+  <%= t.user.name %>
+  <%= t.name %>
+  </div>
+<% end %>
+</div>
+
+
+
+<!-- 以下はいいね機能を実装している場合-->
+<h6>ユーザーがいいねした投稿一覧</h6>
+<% @user.liked_posts.each do |t| %>
+  <div class="likedpost">
+  <%= t.user.name %>
+  <%= t.name %>
+  </div>
+<% end %>
+<!-- ここまで-->
+
